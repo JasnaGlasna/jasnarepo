@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista na akteri</title>
+    <meta charset="utf-8" />
+    <style>
+      /* Add border and padding to table */
+      table {
+        border-collapse: collapse;
+        border: 2px solid black;
+        padding: 5px;
+      }
+
+      /* Add background color to table header */
+      th {
+        background-color: #f2f2f2;
+      }
+
+      /* Add border and padding to table cells */
+      td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+
+      /* Add bold font style to name and surname */
+      .name, .surname {
+        font-weight: bold;
+      }
+
+      /* Add background color to marked name and surname */
+      .marked {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Actors Contact List</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Years</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="name marked">Tom</td>
+          <td class="surname marked">Cruise</td>
+          <td>59</td>
+          <td><img src="TomCruz.webp" alt="Tom Cruise" width="100" /></td>
+        </tr>
+        <tr>
+          <td class="name">Meryl</td>
+          <td class="surname">Streep</td>
+          <td>72</td>
+          <td><img src="Merilstrip.webp" alt="Meryl Streep" width="100" /></td>
+        </tr>
+        <tr>
+          <td class="name">Robert</td>
+          <td class="surname">De Niro</td>
+          <td>78</td>
+          <td><img src="deniro.jpeg" alt="Robert De Niro" width="100" /></td>
+        </tr>
+        <tr>
+          <td class="name marked">Angelina</td>
+          <td class="surname marked">Jolie</td>
+          <td>46</td>
+          <td><img src="jolie.jpeg" alt="Angelina Jolie" width="100" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
