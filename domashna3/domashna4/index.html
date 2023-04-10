@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html formi</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="First Name" required style="box-shadow: 1px 1px 3px grey;">
+        <input type="text" id="surname" name="surname" placeholder="Last Name" required style="box-shadow: 1px 1px 3px grey;">
+        <br><br>
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required style="box-shadow: 1px 1px 3px grey;">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required style="box-shadow: 1px 1px 3px grey;">
+        <br><br>
+        <label for="phone">Phone:</label>
+  <input type="tel" id="area_code" name="area_code" placeholder="Area Code" pattern="[0-9]{3}" maxlength="3" required style="box-shadow: 1px 1px 3px grey;">
+  <input type="tel" id="phone_number" name="phone_number" placeholder="Phone Number" pattern="[0-9]{7}" maxlength="7" required style="box-shadow: 1px 1px 3px grey;"
+        <br><br>
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required style="box-shadow: 1px 1px 3px grey;">
+          <option value="" selected disabled>Select a subject</option>
+          <option value="writing">Writing</option>
+          <option value="reading">Reading</option>
+          <option value="listening">Listening</option>
+        </select>
+        <br><br>
+        <label for="existing_customer">Are you an existing customer?</label>
+        <input type="radio" id="yes" name="existing_customer" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="existing_customer" value="no" required>
+        <label for="no">No</label>
+        <br><br>
+        <input type="submit" value="Register">
+      </form>
+      
+
+</body>
+    
